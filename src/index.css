@@ -1,0 +1,58 @@
+:root {
+  --bg: hsl(240, 55%, 95%);
+  --bg-muted: hsl(240, 5%, 70%);
+  --surface: hsl(240, 5%, 85%);
+  --border: hsl(240, 5%, 70%);
+  --border-muted: hsl(240, 5%, 50%);
+  --ink: hsl(0, 0%, 15%);
+  --ink-muted: hsl(0, 0%, 75%);
+  --ink-light: hsl(0, 0%, 95%);
+  --nav: linear-gradient(0deg, hsl(240, 8%, 18%), hsl(240, 8%, 23%));
+  --nav-press: linear-gradient(0deg, hsl(240, 8%, 25%), hsl(240, 8%, 30%));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  height: 100vh;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: var(--nav);
+  color: var(--ink-light);
+  border-bottom: 1px solid var(--border);
+}
+
+nav > div {
+  display: flex;
+  height: 100%;
+  padding: 0 2rem;
+  align-items: center;
+  background: var(--nav);
+  border-right: 1px solid var(--border-muted);
+}
+
+.site-button:hover {
+  background: var(--nav-press);
+  cursor: pointer;
+}
+
+.curr-tab {
+  color: var(--ink-light);
+  background: var(--nav-press);
+}
