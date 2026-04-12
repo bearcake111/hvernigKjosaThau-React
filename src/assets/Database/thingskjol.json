@@ -1,0 +1,851 @@
+[
+  {
+    "thing": 157,
+    "documents": [
+      {
+        "mal": "78",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0078.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0635.pdf"
+        ]
+      },
+      {
+        "mal": "138",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0141.pdf"
+        ]
+      },
+      {
+        "mal": "139",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0142.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0273.pdf"
+        ]
+      },
+      {
+        "mal": "137",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0140.pdf"
+        ]
+      },
+      {
+        "mal": "89",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0089.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0149.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0179.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0183.pdf"
+        ]
+      },
+      {
+        "mal": "49",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0049.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0193.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0200.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0207.pdf"
+        ]
+      },
+      {
+        "mal": "105",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0105.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0198.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0208.pdf"
+        ]
+      },
+      {
+        "mal": "85",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0085.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0213.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0244.pdf"
+        ]
+      },
+      {
+        "mal": "100",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0100.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0210.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0252.pdf"
+        ]
+      },
+      {
+        "mal": "47",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0047.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0209.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0248.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0253.pdf"
+        ]
+      },
+      {
+        "mal": "69",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0069.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0206.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0245.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0342.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0373.pdf"
+        ]
+      },
+      {
+        "mal": "70",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0070.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0205.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0246.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0254.pdf"
+        ]
+      },
+      {
+        "mal": "201",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0230.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0648.pdf"
+        ]
+      },
+      {
+        "mal": "156",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0162.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0228.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0268.pdf"
+        ]
+      },
+      {
+        "mal": "101",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0101.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0240.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0269.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0284.pdf"
+        ]
+      },
+      {
+        "mal": "106",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0106.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0274.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0279.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0280.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0296.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0305.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0334.pdf"
+        ]
+      },
+      {
+        "mal": "103",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0103.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0259.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0283.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0307.pdf"
+        ]
+      },
+      {
+        "mal": "108",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0108.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0247.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0264.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0308.pdf"
+        ]
+      },
+      {
+        "mal": "102",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0102.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0276.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0306.pdf"
+        ]
+      },
+      {
+        "mal": "48",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0048.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0275.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0330.pdf"
+        ]
+      },
+      {
+        "mal": "99",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0099.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0277.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0331.pdf"
+        ]
+      },
+      {
+        "mal": "107",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0107.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0272.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0281.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0282.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0335.pdf"
+        ]
+      },
+      {
+        "mal": "229",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0291.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0720.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0765.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0816.pdf"
+        ]
+      },
+      {
+        "mal": "148",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0152.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0298.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0336.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0546.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0556.pdf"
+        ]
+      },
+      {
+        "mal": "252",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0327.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0667.pdf"
+        ]
+      },
+      {
+        "mal": "111",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0111.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0138.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0341.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0350.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0360.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0361.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0432.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0690.pdf"
+        ]
+      },
+      {
+        "mal": "263",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0359.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0509.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0561.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0589.pdf"
+        ]
+      },
+      {
+        "mal": "147",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0151.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0325.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0374.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0403.pdf"
+        ]
+      },
+      {
+        "mal": "154",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0160.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0369.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0375.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0404.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0506.pdf"
+        ]
+      },
+      {
+        "mal": "218",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0261.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0349.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0402.pdf"
+        ]
+      },
+      {
+        "mal": "113",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0113.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0133.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0370.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0505.pdf"
+        ]
+      },
+      {
+        "mal": "86",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0086.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0393.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0407.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0614.pdf"
+        ]
+      },
+      {
+        "mal": "1",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0001.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0450.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0451.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0452.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0453.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0454.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0459.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0460.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0461.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0462.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0465.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0466.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0467.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0489.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0544.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0558.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0567.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0568.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0569.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0570.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0572.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0580.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0621.pdf"
+        ]
+      },
+      {
+        "mal": "283",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0388.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0729.pdf"
+        ]
+      },
+      {
+        "mal": "284",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0389.pdf"
+        ]
+      },
+      {
+        "mal": "144",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0147.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0486.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0487.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0493.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0494.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0557.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0578.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0579.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0584.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0612.pdf"
+        ]
+      },
+      {
+        "mal": "2",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0002.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0256.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0477.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0504.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0510.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0538.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0577.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0581.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0585.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0596.pdf"
+        ]
+      },
+      {
+        "mal": "235",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0303.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0475.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0537.pdf"
+        ]
+      },
+      {
+        "mal": "210",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0241.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0433.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0516.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0536.pdf"
+        ]
+      },
+      {
+        "mal": "310",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0434.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0554.pdf"
+        ]
+      },
+      {
+        "mal": "333",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0480.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0555.pdf"
+        ]
+      },
+      {
+        "mal": "236",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0304.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0483.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0550.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0564.pdf"
+        ]
+      },
+      {
+        "mal": "228",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0290.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0499.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0559.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0587.pdf"
+        ]
+      },
+      {
+        "mal": "286",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0391.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0492.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0588.pdf"
+        ]
+      },
+      {
+        "mal": "192",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0215.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0517.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0562.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0590.pdf"
+        ]
+      },
+      {
+        "mal": "190",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0211.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0545.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0563.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0597.pdf"
+        ]
+      },
+      {
+        "mal": "314",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0440.pdf"
+        ]
+      },
+      {
+        "mal": "257",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0343.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0547.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0571.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0575.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0576.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0586.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0603.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0620.pdf"
+        ]
+      },
+      {
+        "mal": "299",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0420.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0540.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0541.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0553.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0583.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0613.pdf"
+        ]
+      },
+      {
+        "mal": "308",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0429.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0574.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0598.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0617.pdf"
+        ]
+      },
+      {
+        "mal": "269",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0368.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0539.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0599.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0618.pdf"
+        ]
+      },
+      {
+        "mal": "306",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0427.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0593.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0615.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0619.pdf"
+        ]
+      },
+      {
+        "mal": "366",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0600.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0616.pdf"
+        ]
+      },
+      {
+        "mal": "401",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0677.pdf"
+        ]
+      },
+      {
+        "mal": "398",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0674.pdf"
+        ]
+      },
+      {
+        "mal": "90",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0090.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0455.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0688.pdf"
+        ]
+      },
+      {
+        "mal": "115",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0115.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0495.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0689.pdf"
+        ]
+      },
+      {
+        "mal": "112",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0112.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0488.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0582.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0671.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0691.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0717.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0726.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0759.pdf"
+        ]
+      },
+      {
+        "mal": "114",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0114.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0481.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0692.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0873.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0956.pdf"
+        ]
+      },
+      {
+        "mal": "220",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0263.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0573.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0767.pdf"
+        ]
+      },
+      {
+        "mal": "215",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0251.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0672.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0714.pdf"
+        ]
+      },
+      {
+        "mal": "219",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0262.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0491.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0715.pdf"
+        ]
+      },
+      {
+        "mal": "237",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0309.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0663.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0700.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0701.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0764.pdf"
+        ]
+      },
+      {
+        "mal": "456",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0778.pdf"
+        ]
+      },
+      {
+        "mal": "155",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0161.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0437.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0704.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0862.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0937.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0957.pdf"
+        ]
+      },
+      {
+        "mal": "474",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0796.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0908.pdf"
+        ]
+      },
+      {
+        "mal": "174",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0182.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0438.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0768.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0813.pdf"
+        ]
+      },
+      {
+        "mal": "238",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0310.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0703.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0730.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0814.pdf"
+        ]
+      },
+      {
+        "mal": "256",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0340.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0702.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0769.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0815.pdf"
+        ]
+      },
+      {
+        "mal": "400",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0676.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0760.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0812.pdf"
+        ]
+      },
+      {
+        "mal": "486",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0809.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1013.pdf"
+        ]
+      },
+      {
+        "mal": "232",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0295.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0770.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0804.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0842.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0869.pdf"
+        ]
+      },
+      {
+        "mal": "153",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0159.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0395.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0849.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0850.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0864.pdf"
+        ]
+      },
+      {
+        "mal": "254",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0329.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0762.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0841.pdf"
+        ]
+      },
+      {
+        "mal": "264",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0362.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0763.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0843.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0870.pdf"
+        ]
+      },
+      {
+        "mal": "146",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0150.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0818.pdf"
+        ]
+      },
+      {
+        "mal": "84",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0084.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0827.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0855.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0866.pdf"
+        ]
+      },
+      {
+        "mal": "179",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0190.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0828.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0856.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0867.pdf"
+        ]
+      },
+      {
+        "mal": "231",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0294.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0833.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0857.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0868.pdf"
+        ]
+      },
+      {
+        "mal": "497",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0829.pdf"
+        ]
+      },
+      {
+        "mal": "498",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0830.pdf"
+        ]
+      },
+      {
+        "mal": "500",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0838.pdf"
+        ]
+      },
+      {
+        "mal": "550",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0928.pdf"
+        ]
+      },
+      {
+        "mal": "564",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0953.pdf"
+        ]
+      },
+      {
+        "mal": "582",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0984.pdf"
+        ]
+      },
+      {
+        "mal": "593",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/1022.pdf"
+        ]
+      },
+      {
+        "mal": "607",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/1055.pdf"
+        ]
+      },
+      {
+        "mal": "79",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0079.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0894.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0895.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0936.pdf",
+          ""
+        ]
+      },
+      {
+        "mal": "315",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0441.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0876.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1015.pdf"
+        ]
+      },
+      {
+        "mal": "296",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0411.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0901.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1000.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1016.pdf"
+        ]
+      },
+      {
+        "mal": "396",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0664.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0905.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1017.pdf"
+        ]
+      },
+      {
+        "mal": "265",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0363.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0949.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1001.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1018.pdf"
+        ]
+      },
+      {
+        "mal": "330",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0476.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0943.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1002.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/1019.pdf"
+        ]
+      },
+      {
+        "mal": "534",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0911.pdf"
+        ]
+      },
+      {
+        "mal": "585",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0991.pdf"
+        ]
+      },
+      {
+        "mal": "569",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0966.pdf"
+        ]
+      },
+      {
+        "mal": "588",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0996.pdf"
+        ]
+      },
+      {
+        "mal": "80",
+        "docs": [
+          "http://www.althingi.is/altext/pdf/157/s/0080.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0919.pdf",
+          "http://www.althingi.is/altext/pdf/157/s/0985.pdf",
+          ""
+        ]
+      }
+    ]
+  }
+]
