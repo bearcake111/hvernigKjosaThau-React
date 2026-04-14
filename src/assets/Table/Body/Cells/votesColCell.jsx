@@ -5,16 +5,24 @@ import { AwayVote } from "./colorVotes/awayVote";
 import { AbscentVote } from "./colorVotes/abscentVote";
 import { NullVote } from "./colorVotes/nullVote";
 
-export function VotesColCell(vote) {
+import { normalizeString } from "../../../Helpers/normalizeString";
+
+export function VotesColCell({ thingmadur, mal }) {
+  const vote = mal.atkvListi.find(
+    (name) =>
+      normalizeString(name.nafn.trim()) === normalizeString(thingmadur.trim()),
+  );
+  console.log(vote);
   function chosenVote() {
-    switch (vote) {
+    if (!vote) return <NullVote />;
+    switch (vote.atkv) {
       case `já`:
         return <YesVote />;
       case `nei`:
         return <NoVote />;
       case `greiðir-ekki-atkvæði`:
         return <AbstainVote />;
-      case `jboðaði-fjarvistá`:
+      case `boðaði-fjarvist`:
         return <AwayVote />;
       case `fjarverandi`:
         return <AbscentVote />;

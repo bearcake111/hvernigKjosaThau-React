@@ -9,7 +9,7 @@ export function InfoBox({ mal }) {
       <InfoHeading name={mal.name} />
       <InfoDate date={mal.date} />
       <InfoStatus status={mal.atkv.afgr} />
-      <InfoDocuments documents={mal.nr} />
+      <InfoDocuments malNr={mal.nr} />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { MoreCell } from "./Cells/moreCell";
 import { VoteTTCell } from "./Cells/voteTTCell";
 import { ResultCell } from "./Cells/resultCell";
 import { VotesColCell } from "./Cells/votesColCell";
+import { PartyCell } from "./Cells/partyCell";
 
 export function TableRow({
   content,
@@ -40,8 +41,9 @@ export function TableRow({
         {newest && <FoldArrow open={open} onClick={() => setOpen(!open)} />}
         {dags && <DateCell date={content.date} />}
         {name && <NameCell name={content.name} link={link} />}
+        {name && <PartyCell party={content.flokkur} />}
         {more && <MoreCell link={link} />}
-        {votesColor && <VotesColCell thingmadur={thingmadur} mal={mal} />}
+        {votesColor && <VotesColCell thingmadur={content.name} mal={mal} />}
         {voteTotal && <VoteTTCell atkv={content.atkv} />}
         {results && <ResultCell atkv={content.atkv} />}
       </tr>
