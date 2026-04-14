@@ -1,12 +1,8 @@
-import { useContext } from "react";
-import { TableContext } from "../../Table/LoadGeneralMalTable";
-
 import { sortByDate } from "./sortByDate";
 import { sortByMal } from "./sortByMal";
 import { sortByResult } from "./sortByResult";
 
-export function useSortMalaskra(malaskra) {
-  const { sorting, setSorting } = useContext(TableContext);
+export function useSortMalaskra(malaskra, sorting) {
   if (sorting.sorting === `date`) {
     return sortByDate(malaskra, sorting.direction);
   }

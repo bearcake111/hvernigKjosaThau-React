@@ -1,9 +1,14 @@
 import { HeadCell } from "./headCell";
 
-export function ResultHead() {
+export function ResultHead({ sorting, setSorting }) {
   return (
     <>
-      <HeadCell type={"result"} text={"Niðurstaða"} />
+      <HeadCell
+        type={"result"}
+        text={"Niðurstaða"}
+        sorting={sorting}
+        setSorting={setSorting}
+      />
     </>
   );
 }

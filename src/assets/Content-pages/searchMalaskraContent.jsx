@@ -8,9 +8,20 @@ import { LoadTableRows } from "../Table/Body/loadGeneralTableRows";
 import { TableRow } from "../Table/Body/TableRow";
 
 import { useProcessMalaskra } from "../Helpers/useProcessMalaskra";
+import { useSortMalaskra } from "../Helpers/Sorting/useSortMalaskra";
+import { foldMal } from "../Helpers/foldMal";
+import { useFilterMalaskra } from "../Helpers/Filters/useFilterMalaskra";
+import { useContext, useState } from "react";
+import { FilterContext } from "../../pages/SearchMalaskra";
 
 export function SearchMalaskraContent() {
-  const processedMalaskra = useProcessMalaskra(arrMalaskra);
+  const { filter } = useContext(FilterContext);
+
+  const [sorting, setSorting] = useState({ sorting: "date", direction: false });
+
+  const filtered = useFilterMalaskra(arrMalaskra, filter);
+  const folded = foldMal(filtered);
+  const processedMalaskra = useSortMalaskra(folded, sorting);
 
   return (
     <section id="thingmadur-valinn">
@@ -18,6 +29,7 @@ export function SearchMalaskraContent() {
         <SearchMalInput />
         <AdvSearchSection />
       </div>
+
       <LoadTable>
         <TableHead
           fold={true}
@@ -26,6 +38,8 @@ export function SearchMalaskraContent() {
           more={true}
           voteTotal={true}
           results={true}
+          sorting={sorting}
+          setSorting={setSorting}
         />
         <LoadTableRows>
           {processedMalaskra?.length > 0 &&

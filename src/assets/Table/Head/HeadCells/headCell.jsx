@@ -1,10 +1,6 @@
-import { useContext } from "react";
-import { TableContext } from "../../LoadGeneralMalTable";
-
 import { SortingArrow } from "./sortingArrow";
 
-export function HeadCell({ type, text }) {
-  const { sorting, setSorting } = useContext(TableContext);
+export function HeadCell({ type, text, sorting, setSorting }) {
   //BUG Clicking on the div doesn't allways update the sorting, not sure why.
   function updateSorting() {
     setSorting((prev) =>
@@ -15,6 +11,7 @@ export function HeadCell({ type, text }) {
   }
 
   const isActiveColumn = sorting.sorting === type;
+
   return (
     <>
       <th className={`category-${type}`}>
