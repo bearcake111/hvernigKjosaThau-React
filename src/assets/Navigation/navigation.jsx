@@ -13,7 +13,6 @@ export function Navigation() {
         to="/leita-i-malaskra"
       />
       <NavButton id="tab-about" text="Um síðuna" to="/um-siduna" />
-      <NavButton id="tab-details" text="Mal Details" to="/mal-details" />
     </nav>
   );
 }
