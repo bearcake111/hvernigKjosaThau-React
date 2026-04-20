@@ -4,7 +4,7 @@ import { TableHead } from "../../assets/Table/Head/tableHead";
 import { LoadTableRows } from "../../assets/Table/Body/loadGeneralTableRows";
 import { CurrMalContext } from "../../pages/MalDetails";
 import { useSortThingmenn } from "../Helpers/Sorting/useSortThingmenn";
-import { TableRow } from "../Table/Body/TableRow";
+import { TableRow } from "../Table/Body/tableRow";
 import { useContext, useState } from "react";
 
 export function MalDetailsContent({ arrThingmenn }) {

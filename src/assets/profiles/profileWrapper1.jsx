@@ -1,7 +1,11 @@
-export function ProfileWrapper1({ children }) {
+import { useNavigate } from "react-router-dom";
+
+export function ProfileWrapper1({ children, id }) {
+  const navigate = useNavigate();
+  const link = id ? `/thingmadur/${id}` : ``;
   return (
     <>
-      <div className="profile-container">
+      <div className="profile-container" onClick={() => navigate(link)}>
         <>{children}</>
       </div>
     </>
