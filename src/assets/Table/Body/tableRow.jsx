@@ -41,7 +41,7 @@ export function TableRow({
         {newest && <FoldArrow open={open} onClick={() => setOpen(!open)} />}
         {dags && <DateCell date={content.date} />}
         {name && <NameCell name={content.name} link={link} />}
-        {name && <PartyCell party={content.flokkur} />}
+        {party && <PartyCell party={content.flokkur} />}
         {more && <MoreCell link={link} />}
         {votesColor && <VotesColCell thingmadur={content.name} mal={mal} />}
         {voteTotal && <VoteTTCell atkv={content.atkv} />}
