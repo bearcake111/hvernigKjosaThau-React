@@ -5,7 +5,7 @@ import { AdvSearchSection } from "../Advanced-Search/advSearchSection";
 import { LoadTable } from "../Table/LoadGeneralMalTable";
 import { TableHead } from "../Table/Head/tableHead";
 import { LoadTableRows } from "../Table/Body/loadGeneralTableRows";
-import { TableRow } from "../Table/Body/TableRow";
+import { TableRow } from "../Table/Body/tableRow";
 
 import { useProcessMalaskra } from "../Helpers/useProcessMalaskra";
 import { useSortMalaskra } from "../Helpers/Sorting/useSortMalaskra";
