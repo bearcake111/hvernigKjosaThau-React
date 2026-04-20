@@ -6,7 +6,7 @@ export function AbscentVote() {
       <td></td>
       <td></td>
       <td>
-        <div class="vote fjarverandi"></div>
+        <div className="vote fjarverandi"></div>
       </td>
     </>
   );

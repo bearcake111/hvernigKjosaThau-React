@@ -1,4 +1,4 @@
-export function sortByParty(arrThingmenn, direction) {
+export function sortByParty({ arrThingmenn }, direction) {
   const alphabetical = arrThingmenn.sort((a, b) => {
     const nameA = a.flokkur.trim();
     const nameB = b.flokkur.trim();

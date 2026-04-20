@@ -2,7 +2,7 @@ export function YesVote() {
   return (
     <>
       <td>
-        <div class="vote já"></div>
+        <div className="vote já"></div>
       </td>
       <td></td>
       <td></td>

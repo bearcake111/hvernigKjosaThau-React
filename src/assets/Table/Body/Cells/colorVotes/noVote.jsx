@@ -3,7 +3,7 @@ export function NoVote() {
     <>
       <td></td>
       <td>
-        <div class="vote nei"></div>
+        <div className="vote nei"></div>
       </td>
       <td></td>
       <td></td>

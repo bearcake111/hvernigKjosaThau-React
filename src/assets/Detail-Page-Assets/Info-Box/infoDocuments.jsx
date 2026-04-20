@@ -12,7 +12,7 @@ export function InfoDocuments({ malNr }) {
         <p>Enging fylgiskjöl fundust</p>
       ) : (
         documents.map((doc, i) => (
-          <DocumentLink link={doc} text={`Skjal ${i + 1}`} />
+          <DocumentLink link={doc} text={`Skjal ${i + 1}`} key={i} />
         ))
       )}
     </>

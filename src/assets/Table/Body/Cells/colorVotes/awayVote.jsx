@@ -5,7 +5,7 @@ export function AwayVote() {
       <td></td>
       <td></td>
       <td>
-        <div class="vote boðaði-fjarvist"></div>
+        <div className="vote boðaði-fjarvist"></div>
       </td>
       <td></td>
     </>

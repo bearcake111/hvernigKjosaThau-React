@@ -4,7 +4,7 @@ export function AbstainVote() {
       <td></td>
       <td></td>
       <td>
-        <div class="vote greiðir-ekki-atkvæði"></div>
+        <div className="vote greiðir-ekki-atkvæði"></div>
       </td>
       <td></td>
       <td></td>
