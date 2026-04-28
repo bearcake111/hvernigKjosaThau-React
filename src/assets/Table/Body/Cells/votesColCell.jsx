@@ -12,6 +12,7 @@ export function VotesColCell({ thingmadur, mal }) {
     (name) =>
       normalizeString(name.nafn.trim()) === normalizeString(thingmadur.trim()),
   );
+
   function chosenVote() {
     if (!vote) return <NullVote />;
     switch (vote.atkv) {

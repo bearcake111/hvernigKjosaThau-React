@@ -43,7 +43,7 @@ export function TableRow({
         {name && <NameCell name={content.name} link={link} />}
         {party && <PartyCell party={content.flokkur} />}
         {more && <MoreCell link={link} />}
-        {votesColor && <VotesColCell thingmadur={content.name} mal={mal} />}
+        {votesColor && <VotesColCell thingmadur={thingmadur.name} mal={mal} />}
         {voteTotal && <VoteTTCell atkv={content.atkv} />}
         {results && <ResultCell atkv={content.atkv} />}
       </tr>
@@ -57,6 +57,9 @@ export function TableRow({
             {dags && <DateCell date={mal.date} />}
             {mal && <NameCell name={mal.name} />}
             {more && <MoreCell link={link} />}
+            {votesColor && (
+              <VotesColCell thingmadur={thingmadur.name} mal={mal} />
+            )}
             {voteTotal && <VoteTTCell atkv={mal.atkv} />}
             {results && <ResultCell atkv={mal.atkv} />}
           </tr>

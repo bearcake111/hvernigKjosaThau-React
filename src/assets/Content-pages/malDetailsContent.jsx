@@ -1,5 +1,6 @@
 import { InfoBox } from "../Detail-Page-Assets/Info-Box/infoBox";
 import { LoadTable } from "../../assets/Table/LoadGeneralMalTable";
+import { VoteExplenation } from "../Table/voteExplenation";
 import { TableHead } from "../../assets/Table/Head/tableHead";
 import { LoadTableRows } from "../../assets/Table/Body/loadGeneralTableRows";
 import { CurrMalContext } from "../../pages/MalDetails";
@@ -17,6 +18,7 @@ export function MalDetailsContent({ arrThingmenn }) {
   return (
     <section id="thingmadur-valinn">
       <InfoBox mal={currMal} />
+      <VoteExplenation />
       <LoadTable>
         <TableHead
           name={true}
@@ -30,6 +32,7 @@ export function MalDetailsContent({ arrThingmenn }) {
             <TableRow
               key={thingmadur.id}
               content={thingmadur}
+              thingmadur={thingmadur}
               index={i}
               name={true}
               party={true}

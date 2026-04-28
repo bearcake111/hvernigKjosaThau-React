@@ -2,7 +2,7 @@ import { ProfileWrapper } from "../profiles/profileWrapper";
 
 export function InfoBoxThingmenn({ thingmadur }) {
   return (
-    <div id="profile-container" class="container">
+    <div id="profile-container" className="container">
       <ProfileWrapper img={thingmadur.img} name={thingmadur.name} />
       <h3>
         Flokkur:
