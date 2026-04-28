@@ -7,6 +7,7 @@ import { useSortThingmenn } from "../Helpers/Sorting/useSortThingmenn";
 import { TableRow } from "../Table/Body/tableRow";
 import { useContext, useState } from "react";
 import { CurrThingmContext } from "../../pages/ThingmennDetails";
+import { InfoBoxThingmenn } from "../Thingmenn-Details-assets/infoBoxThingmenn";
 
 export function ThingmDetailsContent({ arrThingmenn }) {
   const { currThingm, setCurrThingm } = useContext(CurrThingmContext);
@@ -17,29 +18,7 @@ export function ThingmDetailsContent({ arrThingmenn }) {
 
   return (
     <section id="thingmadur-valinn">
-      <div id="profile-container" class="container">
-        <div class="profile-container">
-          <div class="image-wrapper">
-            <img
-              class="profile_picture"
-              src="thingmenn-profile.jpg"
-              alt="profile-picture"
-              onerror="this.src = 'thingmenn-profile.jpg'"
-            />
-            <div class="name-banner">
-              <p id="profile-name" class="name-text"></p>
-            </div>
-          </div>
-        </div>
-        <h3>
-          Flokkur:
-          <p id="label-party">Þingflokkur</p>
-        </h3>
-        <h3>
-          Þingseta:
-          <div id="container-thingseta"></div>
-        </h3>
-      </div>
+      <InfoBoxThingmenn thingmadur={currThingm} />
 
       <div id="malaskra-searchbar" class="container">
         <h3 id="malaskra-searchbar-text">Leita í málaskrá</h3>
