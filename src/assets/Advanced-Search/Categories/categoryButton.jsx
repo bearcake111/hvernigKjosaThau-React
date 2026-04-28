@@ -1,8 +1,4 @@
-import { useContext } from "react";
-import { FilterContext } from "../../../pages/SearchMalaskra";
-
-export function CategoryButton({ id, text }) {
-  const { filter, setFilter } = useContext(FilterContext);
+export function CategoryButton({ id, text, setFilter }) {
   function updateFilter() {
     setFilter((prev) => ({ date: `any`, name: ``, cat: text }));
   }

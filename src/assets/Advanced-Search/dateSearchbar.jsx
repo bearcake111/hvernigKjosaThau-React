@@ -1,11 +1,9 @@
 import { useContext, useState } from "react";
-import { FilterContext } from "../../pages/SearchMalaskra";
 
 import { ErrorChooseDate } from "./ErrorMessages/errorChooseDate";
 import { ErrorWrongDateOrder } from "./ErrorMessages/errorIncorrectDateOrder";
 
-export function DateSearchbar() {
-  const { filter, setFilter } = useContext(FilterContext);
+export function DateSearchbar({ setFilter }) {
   const [startDate, setStartDate] = useState(``);
   const [endDate, setEndDate] = useState(``);
 

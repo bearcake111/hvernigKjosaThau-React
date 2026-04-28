@@ -1,8 +1,6 @@
 import { useState, useContext } from "react";
-import { FilterContext } from "../../pages/SearchMalaskra";
 
-export function SearchMalInput() {
-  const { filter, setFilter } = useContext(FilterContext);
+export function SearchMalInput({ setFilter }) {
   const [inputValue, setInputValue] = useState(``);
 
   function updateFilter() {

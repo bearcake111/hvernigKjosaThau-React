@@ -7,7 +7,6 @@ import { ThingmDetailsContent } from "../assets/Content-pages/thingmDetailsConte
 import { useParams } from "react-router-dom";
 
 export const CurrThingmContext = createContext();
-export const FilterContext = createContext();
 
 export function ThingmennDetails() {
   const { id } = useParams();
@@ -22,19 +21,10 @@ export function ThingmennDetails() {
     return <h1>Mál fannst ekki</h1>;
   }
 
-  const [filter, setFilter] = useState({
-    cat: `Öll mál`,
-    date: `any`,
-    name: ``,
-  });
-  const categories = { filter, setFilter };
-
   return (
     <main className="app">
       <CurrThingmContext.Provider value={currentThingm}>
-        <FilterContext.Provider value={categories}>
-          <ThingmDetailsContent arrThingmenn={arrThingmenn} />
-        </FilterContext.Provider>
+        <ThingmDetailsContent arrThingmenn={arrThingmenn} />
       </CurrThingmContext.Provider>
     </main>
   );

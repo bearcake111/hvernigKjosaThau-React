@@ -8,9 +8,16 @@ import { TableRow } from "../Table/Body/tableRow";
 import { useContext, useState } from "react";
 import { CurrThingmContext } from "../../pages/ThingmennDetails";
 import { InfoBoxThingmenn } from "../Thingmenn-Details-assets/infoBoxThingmenn";
+import { AdvSearchSection } from "../Advanced-Search/advSearchSection";
 
 export function ThingmDetailsContent({ arrThingmenn }) {
   const { currThingm, setCurrThingm } = useContext(CurrThingmContext);
+
+  const [filter, setFilter] = useState({
+    cat: `Öll mál`,
+    date: `any`,
+    name: ``,
+  });
 
   const [sorting, setSorting] = useState({ sorting: "date", direction: false });
 
@@ -34,46 +41,7 @@ export function ThingmDetailsContent({ arrThingmenn }) {
           value="Leita"
         />
       </div>
-      <div id="advanced-search-container" class="container">
-        <button class="advanced-search-btn" aria-label="Ítarleg leit">
-          <span class="text">Ítarleg leit</span>
-        </button>
-        <div id="date-searchbar" class="container hidden">
-          <div>
-            <p>Flokka eftir dagsetningu:</p>
-          </div>
-          <div class="choose-date">
-            <p>Frá</p>
-            <input type="date" id="input-date-first" class="date-first" />
-          </div>
-          <div class="choose-date">
-            <p>Til</p>
-            <input type="date" id="input-date-second" class="date-second" />
-          </div>
-          <div class="date-button">
-            <p id="error-no-date" class="error-message hidden">
-              Vinsamlegast veljið dagsetningu
-            </p>
-            <p id="error-wrong-order" class="error-message hidden">
-              Vinsamlegast veljið upphafsdag á undan lokadegi
-            </p>
-            <input
-              type="button"
-              id="search-date-button"
-              class="button"
-              value="Leita"
-            />
-          </div>
-        </div>
-
-        <div id="efnisflokkar" class="container hidden">
-          <div class="yfirflokkur-div">
-            <p id="oll-mal" class="yfirflokkur-txt">
-              Öll mál
-            </p>
-          </div>
-        </div>
-      </div>
+      <AdvSearchSection setFilter={setFilter} />
       <div class="table-wrap">
         <div id="vote-explenation-wrap">
           <p class="vote-explenation">

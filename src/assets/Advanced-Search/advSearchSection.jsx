@@ -4,7 +4,7 @@ import { AdvSearchButton } from "./advSearchButton";
 import { DateSearchbar } from "./dateSearchbar";
 import { LoadCategories } from "./Categories/loadCategories";
 
-export function AdvSearchSection() {
+export function AdvSearchSection({ setFilter }) {
   const [isShown, setIsShown] = useState(false);
 
   const hideElement = () => {
@@ -14,8 +14,8 @@ export function AdvSearchSection() {
   return (
     <div id="advanced-search-container" className="container">
       <AdvSearchButton onClick={hideElement} />
-      {isShown && <DateSearchbar />}
-      {isShown && <LoadCategories />}
+      {isShown && <DateSearchbar setFilter={setFilter} />}
+      {isShown && <LoadCategories setFilter={setFilter} />}
     </div>
   );
 }

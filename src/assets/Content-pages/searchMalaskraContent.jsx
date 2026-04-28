@@ -12,10 +12,13 @@ import { useSortMalaskra } from "../Helpers/Sorting/useSortMalaskra";
 import { foldMal } from "../Helpers/foldMal";
 import { useFilterMalaskra } from "../Helpers/Filters/useFilterMalaskra";
 import { useContext, useState } from "react";
-import { FilterContext } from "../../pages/SearchMalaskra";
 
 export function SearchMalaskraContent() {
-  const { filter } = useContext(FilterContext);
+  const [filter, setFilter] = useState({
+    cat: `Öll mál`,
+    date: `any`,
+    name: ``,
+  });
 
   const [sorting, setSorting] = useState({ sorting: "date", direction: false });
 
@@ -26,8 +29,8 @@ export function SearchMalaskraContent() {
   return (
     <section id="thingmadur-valinn">
       <div id="search-section">
-        <SearchMalInput />
-        <AdvSearchSection />
+        <SearchMalInput setFilter={setFilter} />
+        <AdvSearchSection setFilter={setFilter} />
       </div>
 
       <LoadTable>

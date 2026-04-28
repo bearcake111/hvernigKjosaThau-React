@@ -1,7 +1,7 @@
 import efnisflokkar from "../../Database/efnisflokkar.json";
 import { CategoryButton } from "./categoryButton";
 
-export function LoadCategories() {
+export function LoadCategories({ setFilter }) {
   function createId(flokkur) {
     return flokkur.yfirflokkur.replaceAll(` `, `-`);
   }
@@ -12,9 +12,15 @@ export function LoadCategories() {
           id={createId(flokkur)}
           text={flokkur.yfirflokkur}
           key={createId(flokkur)}
+          setFilter={setFilter}
         />
       ))}
-      <CategoryButton key="oll-mal" id="oll-mal" text="Öll mál" />
+      <CategoryButton
+        key="oll-mal"
+        id="oll-mal"
+        text="Öll mál"
+        setFilter={setFilter}
+      />
     </div>
   );
 }

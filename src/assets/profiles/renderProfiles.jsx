@@ -1,13 +1,13 @@
-import { ProfileWrapper1 } from "./profileWrapper1";
+import { ProfileWrapperClick } from "./profileWrapperClick";
 import { ProfileImg } from "./profileimg";
 
 export function RenderProfiles({ thingmenn }) {
   return (
     <>
       {thingmenn.map((person) => (
-        <ProfileWrapper1 key={person.id} id={person.id}>
+        <ProfileWrapperClick key={person.id} id={person.id}>
           <ProfileImg img={person.img} name={person.name} />
-        </ProfileWrapper1>
+        </ProfileWrapperClick>
       ))}
     </>
   );
