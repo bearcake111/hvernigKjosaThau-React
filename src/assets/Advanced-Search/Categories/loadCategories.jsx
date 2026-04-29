@@ -7,7 +7,7 @@ export function LoadCategories({ setFilter }) {
   }
   return (
     <div id="efnisflokkar" className="container">
-      {efnisflokkar.toReversed().map((flokkur) => (
+      {efnisflokkar.map((flokkur) => (
         <CategoryButton
           id={createId(flokkur)}
           text={flokkur.yfirflokkur}

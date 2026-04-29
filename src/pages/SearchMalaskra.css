@@ -5,6 +5,7 @@
   min-width: 500px;
   overflow-x: auto;
   font-size: calc(1rem + 0.2vw);
+  background-color: var(--bg);
 }
 
 /* LAYOUT CONTAINER */
